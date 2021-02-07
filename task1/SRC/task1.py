@@ -22,7 +22,8 @@ def main():
         res = i_to_base(sys.argv[1], sys.argv[2], sys.argv[3])
     else:
         res = ("Usage: 1st argument - the number to be converted\n")
-        res += ("       2nd argument - base")
+        res += ("       2nd argument - destination base")
+        res += ("       3nd argument(optional) - original base")
 
     print(res)
 
