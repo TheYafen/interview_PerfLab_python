@@ -29,9 +29,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#path = sys.argv[1]
-
-
-#data = open(path, "r")
-
